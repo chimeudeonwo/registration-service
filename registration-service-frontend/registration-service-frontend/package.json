@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "Patrick Chimeudeonwo",
   "private": true,
-  "homepage": "",
+  "homepage": "/build/index.html",
   "repository": {
     "type": "git",
     "url": "github:chimeudeonwo/registration-service.git"

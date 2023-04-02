@@ -4,10 +4,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './src/index.tsx',
+    // entry: './build/registration-service.bundle.js',
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'registration-service.bundle.js',
-        publicPath: '/'
+        publicPath: 'http://localhost:3000/'
     },
     mode: 'development',
     devServer: {
