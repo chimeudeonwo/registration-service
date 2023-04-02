@@ -1,9 +1,10 @@
 
+const baseUrl = "http://localhost:8080/start-register";
+
 class RegistrationService {
-    static baseUrl = "http://localhost:8080/start-register";
 
     async startRegistration() {
-        const response = await fetch(`${RegistrationService.baseUrl}`,{
+        const response = await fetch(`${baseUrl}`,{
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
@@ -13,7 +14,7 @@ class RegistrationService {
     }
 
     async registerUser(registerData: any) {
-        const response = await fetch(`${RegistrationService.baseUrl}/register-user`,{
+        const response = await fetch(`${baseUrl}/register-user`,{
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
