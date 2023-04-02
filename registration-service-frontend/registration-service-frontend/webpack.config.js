@@ -6,12 +6,15 @@ module.exports = {
     entry: './src/index.tsx',
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'registration-service.bundle.js'
+        filename: 'registration-service.bundle.js',
+        publicPath: '/'
     },
     mode: 'development',
     devServer: {
         static: './build',
-        port: 3000
+        port: 3000,
+        historyApiFallback: true,
+        compress: true
     },
     devtool: "source-map",
     resolve: {

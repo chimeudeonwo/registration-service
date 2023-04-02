@@ -1,15 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.scss';
-import RegistrationApp from './RegistrationApp';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+import {RegistrationApp} from './RegistrationApp';
+import {ErrorPage} from "./modules/errorPage/ErrorPage";
+import {RegisterStart} from "./modules/registerStart/RegisterStart";
+
+export const RegistrationApplication = () => {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<RegistrationApp />} />
+                <Route path="/register" element={<RegisterStart/>} />
+                <Route path="*" element={<ErrorPage/>} />
+            </Routes>
+        </BrowserRouter>
+    );
+}
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <RegistrationApp />
+    <RegistrationApplication />
   </React.StrictMode>
 );
 

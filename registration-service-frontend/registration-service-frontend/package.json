@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "author": "Patrick Chimeudeonwo",
   "private": true,
+  "homepage": "",
   "repository": {
     "type": "git",
     "url": "github:chimeudeonwo/registration-service.git"
@@ -18,8 +19,10 @@
     "@types/node": "^16.18.23",
     "@types/react": "^18.0.32",
     "@types/react-dom": "^18.0.11",
+    "@types/react-router-dom": "^5.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "sass": "^1.60.0",
     "sass-loader": "^13.2.2",
@@ -31,7 +34,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "yarn run compile",
+    "build": "webpack",
     "clean": "del -f ./build/registration-service.bundle.js",
     "compile": "set NODE_ENV=production webpack --config ./webpack.config.js --progress",
     "test": "echo \"Error: No test specified\""
