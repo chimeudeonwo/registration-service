@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a152bf8-7a1f-4e9d-8a6f-13d543c16584" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-service-backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/registration-service-backend/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="4a152bf8-7a1f-4e9d-8a6f-13d543c16584" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +31,9 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/registration-service-backend" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -95,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680422263513</updated>
-      <workItem from="1680422264792" duration="4403000" />
+      <workItem from="1680422264792" duration="4787000" />
     </task>
     <task id="LOCAL-00001" summary="set up registration service">
       <created>1680426354962</created>
@@ -104,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680426354962</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ignore workspace.xml">
+      <created>1680426993474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680426993474</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up registration service" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up registration service" />
+    <MESSAGE value="ignore workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore workspace.xml" />
   </component>
 </project>
